@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OsReparoSenaiApiApplication {
+public class InitApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(initApp.class, args);
+		SpringApplication.run(InitApp.class, args);
 	}
 
 }
